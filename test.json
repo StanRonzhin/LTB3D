@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "label": "Stan",
+      "val": 0.1
+    },
+    {
+      "label": "Tanya",
+      "val": 0.8
+    },
+    {
+      "label": "Leela",
+      "val": 0.01
+    },
+    {
+      "label": "Neil",
+      "val": 10
+    }
+  ],
+  "links": [
+    {
+      "source": "Stan",
+      "target": "Tanya",
+      "value": "test"
+    },
+    {
+      "source": "Tanya",
+      "target": "Leela",
+      "value": "test"
+    },
+    {
+      "source": "Leela",
+      "target": "Neil",
+      "value": "test"
+    },
+    {
+      "source": "Stan",
+      "target": "Neil",
+      "value": "test"
+    },
+    {
+      "source": "Neil",
+      "target": "Tanya",
+      "value": "test"
+    }
+  ]
+}
